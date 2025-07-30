@@ -8,11 +8,22 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import './App.css';
+import whatsappIcon from './images/whatsapp.png';
+
 
 function App() {
   return (
     <Router>
       <Navbar />
+      {/* WhatsApp floating icon */}
+      <a
+        href="https://wa.me/971581264868"  // Replace with your full number, like 971501234567
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+<img src={whatsappIcon} alt="WhatsApp" />
+      </a>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
