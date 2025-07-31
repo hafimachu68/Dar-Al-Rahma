@@ -1,8 +1,22 @@
 import React from 'react';
 import './About.css';
+import { Helmet } from 'react-helmet';
+
 
 export default function About() {
   return (
+    <>
+      <Helmet>
+        <title>Contact | Dar Al Rahma - Document Clearing Services in Dubai</title>
+        <meta
+          name="description"
+          content="Get in touch with Dar Al Rahma for Emirates ID, Medical Typing, Visa Services, Attestation, and more. Visit us in Al Qusais, Dubai or send us a message."
+        />
+        <meta
+          name="keywords"
+          content="Contact Dar Al Rahma, Typing Center Dubai, Visa Help UAE, Emirates ID Support, Dubai Document Services"
+        />
+      </Helmet>
     <section className="dar-about-section position-relative overflow-hidden py-5">
       <div className="container">
         {/* Header */}
@@ -112,5 +126,6 @@ export default function About() {
       <div className="circle-bg-1"></div>
       <div className="circle-bg-2"></div>
     </section>
+    </>
   );
 }

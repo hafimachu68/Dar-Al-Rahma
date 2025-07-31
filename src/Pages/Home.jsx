@@ -6,6 +6,8 @@ import 'react-multi-carousel/lib/styles.css';
 import './Home.css';
 import bgImage from '../images/bg.jpeg';
 import bgImage1 from '../images/slide1.jpeg';
+import { Helmet } from 'react-helmet';
+
 
 
 
@@ -88,6 +90,17 @@ export default function Home() {
   };
   return (
     <div>
+      <Helmet>
+      <title>Dar Al Rahma | Trusted Typing & Document Services in Dubai</title>
+      <meta
+        name="description"
+        content="Dar Al Rahma offers Emirates ID, Medical Typing, Visa, Tasheel, Tawjeeh, and Attestation services in Al Qusais, Dubai. Fast and reliable government documentation support."
+      />
+      <meta
+        name="keywords"
+        content="Dar Al Rahma, Emirates ID Dubai, Medical Typing, Visa Services, Tasheel Dubai, Typing Center Al Qusais, UAE Government Services"
+      />
+    </Helmet>
       {/* Hero Section */}
       <Carousel fade interval={5000} controls={true} indicators={true}>
       {/* Slide 1 */}

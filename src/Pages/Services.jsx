@@ -9,6 +9,8 @@ import ID5 from '../images/attested.png';
 import ID6 from '../images/conversation.png';
 import ID7 from '../images/documentation.png';
 import ID8 from '../images/upwards.png';
+import { Helmet } from 'react-helmet';
+
 
 
 
@@ -146,6 +148,18 @@ export default function Services() {
   };
 
   return (
+    <>
+    <Helmet>
+        <title>Contact | Dar Al Rahma - Document Clearing Services in Dubai</title>
+        <meta
+          name="description"
+          content="Get in touch with Dar Al Rahma for Emirates ID, Medical Typing, Visa Services, Attestation, and more. Visit us in Al Qusais, Dubai or send us a message."
+        />
+        <meta
+          name="keywords"
+          content="Contact Dar Al Rahma, Typing Center Dubai, Visa Help UAE, Emirates ID Support, Dubai Document Services"
+        />
+      </Helmet>
     <section className="services-section py-5">
      <div className="container  mb-5">
   <h2 className="display-5 fw-bold text-dark text-center">What We Offer</h2>
@@ -238,6 +252,7 @@ export default function Services() {
 </section>
 
     </section>
+    </>
     
   );
 }
