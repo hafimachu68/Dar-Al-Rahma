@@ -59,7 +59,7 @@ export default function Contact() {
 
           <iframe
             title="Our Location"
-            src="https://www.google.com/maps/embed?pb=..." // Use full map URL here
+            src="https://share.google/Rp6rJM9y1cunufOiI" // Use full map URL here
             width="100%"
             height="250"
             style={{ border: 0, borderRadius: '10px' }}
