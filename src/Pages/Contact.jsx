@@ -15,7 +15,7 @@ export default function Contact() {
           <form
             className="row g-3"
             method="POST"
-            action="https://formsubmit.co/hafee3155@gmail.com"
+            action="https://formsubmit.co/info@daralrahma.ae"
           >
             <div className="form-floating col-md-6">
               <input type="text" name="name" className="form-control" id="name" placeholder="Name" required />

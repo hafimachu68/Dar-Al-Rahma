@@ -25,7 +25,7 @@ export default function PopupForm() {
 
         <p>Need help? Contact us for quick support or services. We'll get back to you shortly.</p>
 
-        <form method="POST" action="https://formsubmit.co/hafee3155@gmail.com">
+        <form method="POST" action="https://formsubmit.co/info@daralrahma.ae">
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="3" placeholder="Your Message" required></textarea>
