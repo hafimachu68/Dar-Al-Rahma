@@ -15,7 +15,7 @@ export default function Contact() {
           <form
             className="row g-3"
             method="POST"
-            action="https://formsubmit.co/info@daralrahma.ae"
+            action="https://formsubmit.co/kavvayikaran@gmail.com"
           >
             <div className="form-floating col-md-6">
               <input type="text" name="name" className="form-control" id="name" placeholder="Name" required />
@@ -54,7 +54,7 @@ export default function Contact() {
         <div className="contact-right">
           <h4 className="mb-3">Our Office</h4>
           <p><strong>📍 Location:</strong> Al Qusais, Dubai, UAE</p>
-          <p><strong>✉️ Email:</strong> info@daralrahma.ae</p>
+          <p><strong>✉️ Email:</strong> kavvayikaran@gmail.com</p>
           <p><strong>📞 Phone:</strong> +971581264868</p>
 
           <iframe
