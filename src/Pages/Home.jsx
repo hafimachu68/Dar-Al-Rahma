@@ -4,6 +4,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-multi-carousel/lib/styles.css';
 import './Home.css';
+import bgImage from '../images/bg.jpeg';
+import bgImage1 from '../images/slide1.jpeg';
+
+
 
 const testimonials = [
   {
@@ -88,6 +92,25 @@ export default function Home() {
       <Carousel fade interval={5000} controls={true} indicators={true}>
       {/* Slide 1 */}
       <Carousel.Item>
+  <section
+    className="hero-slide d-flex align-items-center position-relative"
+    style={{
+  backgroundImage: `url(${bgImage})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+}}
+
+  >
+    <div className="container text-center text-white">
+      {/* <div className="hero-content-blur p-4 rounded">
+             <Link to="/contact" className="btn btn-light mt-4 shadow-lg">Get Started</Link>
+      </div> */}
+    </div>
+  </section>
+</Carousel.Item>
+
+      <Carousel.Item>
         <section className="hero-slide hero-slide-1 d-flex align-items-center position-relative">
 <div className="circle-bg-modern">
   <span className="circle circle-1"></span>
@@ -149,6 +172,26 @@ export default function Home() {
           </div>
         </section>
       </Carousel.Item>
+      <Carousel.Item>
+  <section
+    className="hero-slide d-flex align-items-center position-relative"
+    style={{
+  backgroundImage: `url(${bgImage1})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+}}
+
+  >
+    <div className="container text-center text-white">
+      {/* <div className="hero-content-blur p-4 rounded">
+             <Link to="/contact" className="btn btn-light mt-4 shadow-lg">Get Started</Link>
+      </div> */}
+    </div>
+  </section>
+</Carousel.Item>
+  
+
     </Carousel>
 
     {/* About Section - No Image Version */}
@@ -157,7 +200,7 @@ export default function Home() {
     <div className="text-center mb-5">
       <h2 className="display-6 fw-bold text-accent-1 fadeInUp">About Dar Al Rahma</h2>
       <p className="lead fadeInUp" style={{ maxWidth: "750px", margin: "0 auto" }}>
-        Established in 2016, Dar Al Rahma has become a trusted name in Dubai for fast, transparent, and accurate government documentation services.
+        Established in 2025, Dar Al Rahma has become a trusted name in Dubai for fast, transparent, and accurate government documentation services.
       </p>
     </div>
 
@@ -252,7 +295,7 @@ export default function Home() {
         <div className="why-card p-4 shadow-lg rounded bg-white fadeInUp">
           <h5 className="text-accent-w">What Sets Us Apart</h5>
           <p className="mb-3">
-            Since 2016, Dar Al Rahma has served thousands of residents, delivering reliable, fast, and multilingual documentation services.
+            Since 2025, Dar Al Rahma has served thousands of residents, delivering reliable, fast, and multilingual documentation services.
           </p>
           <p className="mb-0">
             Whether you're applying for an Emirates ID, medical fitness certificate, or attestation, we're your trusted guide.
@@ -305,7 +348,7 @@ export default function Home() {
         <div className="info-card p-4">
           <h4 className="text-accent">Who We Are</h4>
           <p>
-            Established in 2016, Dar Al Rahma offers all-in-one government documentation services with a friendly, multilingual team. From individuals to corporations, we provide a smooth and comfortable experience with unmatched professionalism and care.
+            Established in 2025, Dar Al Rahma offers all-in-one government documentation services with a friendly, multilingual team. From individuals to corporations, we provide a smooth and comfortable experience with unmatched professionalism and care.
           </p>
         </div>
       </div>

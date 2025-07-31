@@ -137,7 +137,49 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-slide {
+    height: 60vh; /* reduce height on smaller screens */
+    background-position: top;
+  }
 
+  .hero-content-blur {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  .hero-content-blur h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero-content-blur p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-slide {
+    height: 45vh;
+  }
+
+.btn {
+    font-size: 0.9rem;
+margin-top: -4px !important;
+ }
+
+  .hero-content-blur h1 {
+    font-size: 1.1rem;
+  }
+
+  .hero-content-blur p {
+    font-size: 0.85rem;
+  }
+}
 
 /* ---------------- Hero Banner ---------------- */
 /* .hero-banner {

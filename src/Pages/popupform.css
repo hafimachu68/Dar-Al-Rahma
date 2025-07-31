@@ -1,0 +1,110 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.4s ease;
+}
+
+.popup-form {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.popup-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.popup-form h3 {
+  font-size: 22px;
+  margin: 0;
+  color: #FF1E00;
+  font-weight: 700;
+}
+
+.popup-form p {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.popup-form input,
+.popup-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.ppobutton{
+  width: 100%;
+  background: #59CE8F;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ppobutton:hover {
+  background: #45b877;
+}
+
+.close-btn-pop {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn-pop:hover {
+  color: #FF1E00;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* 🌟 Twinkling effect for brand name */
+@keyframes twinkle {
+  0%, 100% { color: #FF1E00; text-shadow: 0 0 5px #FF1E00; }
+  50% { color: #e5c100; text-shadow: 0 0 10px #FF1E00, 0 0 20px #FF1E00; }
+}
+
+.twinkle {
+  animation: twinkle 1.5s infinite;
+}

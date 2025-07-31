@@ -1,0 +1,82 @@
+/* src/Pages/Contact.css */
+
+.contact-wrapper {
+  background: linear-gradient(to bottom right, #E8F9FD, #ffffff);
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left,
+.contact-right {
+  flex: 1 1 500px;
+  padding: 40px;
+}
+
+.contact-left h2 {
+  font-size: 2rem;
+  color: #FF1E00;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-left .subtitle {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact-left form .form-control {
+  border-radius: 10px;
+}
+
+.contact-left form label {
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-left button,
+.contact-left a {
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-left button:hover {
+  background-color: #4cb577;
+}
+
+.contact-left a:hover {
+  background-color: #111;
+}
+
+.contact-right h4 {
+  color: #333;
+  font-weight: 600;
+}
+
+.contact-right p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-right {
+    padding: 30px 20px;
+  }
+}

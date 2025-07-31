@@ -9,11 +9,13 @@ import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import './App.css';
 import whatsappIcon from './images/whatsapp.png';
+import PopupForm from './Pages/Popupform';
 
 
 function App() {
   return (
     <Router>
+      <PopupForm/>
       <Navbar />
       {/* WhatsApp floating icon */}
       <a
