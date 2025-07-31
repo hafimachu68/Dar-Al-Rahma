@@ -59,8 +59,7 @@ export default function Contact() {
 
           <iframe
             title="Our Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14434.713587113782!2d55.29078061891095!3d25.247754861852837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43c10b93870b%3A0x4b563d7f30da08ca!2sDar%20al%20Rahma!5e0!3m2!1sen!2sae!4v1753975576415!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" // Use full map URL here
-            width="100%"
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14434.713587113782!2d55.29078061891095!3d25.247754861852837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43c10b93870b%3A0x4b563d7f30da08ca!2sDar%20al%20Rahma!5e0!3m2!1sen!2sae!4v1753975576415!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"            width="100%"
             height="250"
             style={{ border: 0, borderRadius: '10px' }}
             allowFullScreen=""
